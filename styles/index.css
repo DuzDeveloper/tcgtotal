@@ -1,18 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 html {
     font-size: 62.5%;
+    overflow: hidden
 }
 
 body {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
     text-align: center;
     background-color: bisque;
     justify-content: center;
-}
-
-::-webkit-scrollbar {
-    display: none;
+    overflow: hidden
 }
 
 .logocontainer {
@@ -20,19 +20,24 @@ body {
     flex-direction: column;
     height: 50%;
     width: 100%;
+    max-width: 1860px;
     justify-content: center;
     align-items: center;
-    margin: 7rem 2rem;
+    margin-top: 100px;
 }
 
 .logocontainer img{
     height: 100%;
-    width: 40%;
+    width: 35%;
 }
 
 .logocontainer p {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: aliceblue;
     font-size: 2rem;
+    margin: auto;
 }
 
 /* TCG */
@@ -63,9 +68,55 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
-    filter: brightness(25%);
+    filter: brightness(20%);
     min-width: 100%;
     min-height: 100%;
     z-index: -1; 
     object-fit: cover; 
+}
+
+.back_wallpaper {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    filter: brightness(20%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+}
+
+@media (max-width:800px) {
+
+.logocontainer img{
+    height: 100%;
+    width: 68%;
+    margin-top: 5px;
+}
+
+.back-video {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    filter: brightness(20%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+}
+
+.back_wallpaper {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    filter: brightness(20%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+}
+
 }
