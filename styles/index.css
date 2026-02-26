@@ -49,6 +49,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 1.3rem;
 }
 
 .selectioncontainer figure{
@@ -82,11 +83,26 @@ body {
 
 @media (max-width:800px) {
 
+/*Logo*/
+
 .logocontainer img{
     height: 100%;
     width: 68%;
     margin-top: 5px;
 }
+
+/* TCG */
+
+.selectioncontainer {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+/* Backgroundvideo */
 
 .back-video {
     display: none;
