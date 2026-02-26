@@ -10,10 +10,11 @@ body {
     box-sizing: border-box;
     padding: 0;
     text-align: center;
-    background-color: bisque;
     justify-content: center;
     overflow: hidden
 }
+
+/*Logo*/
 
 .logocontainer {
     display: flex;
@@ -77,14 +78,6 @@ body {
 
 .back_wallpaper {
     display: none;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    filter: brightness(20%);
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; 
-    object-fit: cover; 
 }
 
 @media (max-width:800px) {
@@ -97,14 +90,6 @@ body {
 
 .back-video {
     display: none;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    filter: brightness(20%);
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; 
-    object-fit: cover; 
 }
 
 .back_wallpaper {
