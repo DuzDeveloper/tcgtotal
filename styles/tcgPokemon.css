@@ -436,3 +436,41 @@ body {
 }
 
 }
+
+@media (max-width: 412px) and (max-height: 800px) {
+
+.contenttext,.contenttext2 {
+    margin: 1px 0px;
+}
+
+.contenttext h1{
+    font-size: 1.4rem;
+}
+
+.contenttext p{
+    font-size: 1rem;
+}
+
+.contenttext2 p{
+    font-size: 1.2rem;
+}
+}
+
+@media (max-width: 414px) and (max-height: 896px) {
+
+.contenttext,.contenttext2 {
+    margin: 1px 0px;
+}
+
+.contenttext h1{
+    font-size: 1.6rem;
+}
+
+.contenttext p{
+    font-size: 1.2rem;
+}
+
+.contenttext2 p{
+    font-size: 1.2rem;
+}
+}
